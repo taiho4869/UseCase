@@ -9853,6 +9853,182 @@
 							},
 							"lineStyle": 1,
 							"points": "703:1558;532:1534"
+						},
+						{
+							"_type": "UMLActorView",
+							"_id": "AAAAAAGhw0DvcFZ5cnI=",
+							"_parent": {
+								"$ref": "AAAAAAGhwve6P/dxNGs="
+							},
+							"model": {
+								"$ref": "AAAAAAGhw0DvcFZ32wc="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGhw0DvcFZ6ejk=",
+									"_parent": {
+										"$ref": "AAAAAAGhw0DvcFZ5cnI="
+									},
+									"model": {
+										"$ref": "AAAAAAGhw0DvcFZ32wc="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhw0DvcFZ7tiU=",
+											"_parent": {
+												"$ref": "AAAAAAGhw0DvcFZ6ejk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhw0DvcFZ8ic4=",
+											"_parent": {
+												"$ref": "AAAAAAGhw0DvcFZ6ejk="
+											},
+											"font": "Arial;13;1",
+											"parentStyle": true,
+											"left": 181,
+											"top": 190,
+											"width": 42.17724609375,
+											"height": 13,
+											"text": "Actor1"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhw0DvcFZ9XIo=",
+											"_parent": {
+												"$ref": "AAAAAAGhw0DvcFZ6ejk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhw0DvcFZ+lIc=",
+											"_parent": {
+												"$ref": "AAAAAAGhw0DvcFZ6ejk="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 176,
+									"top": 183,
+									"width": 52.17724609375,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGhw0DvcFZ7tiU="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGhw0DvcFZ8ic4="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGhw0DvcFZ9XIo="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGhw0DvcFZ+lIc="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGhw0DvcFZ/Sq0=",
+									"_parent": {
+										"$ref": "AAAAAAGhw0DvcFZ5cnI="
+									},
+									"model": {
+										"$ref": "AAAAAAGhw0DvcFZ32wc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGhw0DvcFaArmQ=",
+									"_parent": {
+										"$ref": "AAAAAAGhw0DvcFZ5cnI="
+									},
+									"model": {
+										"$ref": "AAAAAAGhw0DvcFZ32wc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGhw0DvcFaBM8c=",
+									"_parent": {
+										"$ref": "AAAAAAGhw0DvcFZ5cnI="
+									},
+									"model": {
+										"$ref": "AAAAAAGhw0DvcFZ32wc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGhw0DvcFaCkDI=",
+									"_parent": {
+										"$ref": "AAAAAAGhw0DvcFZ5cnI="
+									},
+									"model": {
+										"$ref": "AAAAAAGhw0DvcFZ32wc="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"containerChangeable": true,
+							"left": 176,
+							"top": 128,
+							"width": 51.17724609375,
+							"height": 80,
+							"nameCompartment": {
+								"$ref": "AAAAAAGhw0DvcFZ6ejk="
+							},
+							"suppressAttributes": true,
+							"suppressOperations": true,
+							"attributeCompartment": {
+								"$ref": "AAAAAAGhw0DvcFZ/Sq0="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGhw0DvcFaArmQ="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGhw0DvcFaBM8c="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGhw0DvcFaCkDI="
+							}
 						}
 					]
 				},
@@ -10514,6 +10690,14 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Chỉnh sửa hạn mức"
+				},
+				{
+					"_type": "UMLActor",
+					"_id": "AAAAAAGhw0DvcFZ32wc=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Actor1"
 				}
 			]
 		}
