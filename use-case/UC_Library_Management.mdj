@@ -10793,9 +10793,9 @@
 											"parentStyle": true,
 											"left": -490,
 											"top": 48,
-											"width": 150.287109375,
+											"width": 300.650390625,
 											"height": 13,
-											"text": "(from Use case tổng quát)"
+											"text": "(from Use case tổng quát hệ thống quản lý thư viện)"
 										},
 										{
 											"_type": "LabelView",
@@ -10983,9 +10983,9 @@
 											"parentStyle": true,
 											"left": -192,
 											"top": -156,
-											"width": 150.287109375,
+											"width": 300.650390625,
 											"height": 13,
-											"text": "(from Use case tổng quát)"
+											"text": "(from Use case tổng quát hệ thống quản lý thư viện)"
 										},
 										{
 											"_type": "LabelView",
@@ -11193,9 +11193,9 @@
 											"parentStyle": true,
 											"left": -310,
 											"top": -356,
-											"width": 150.287109375,
+											"width": 300.650390625,
 											"height": 13,
-											"text": "(from Use case tổng quát)"
+											"text": "(from Use case tổng quát hệ thống quản lý thư viện)"
 										},
 										{
 											"_type": "LabelView",
@@ -11403,9 +11403,9 @@
 											"parentStyle": true,
 											"left": 496,
 											"top": -326,
-											"width": 150.287109375,
+											"width": 300.650390625,
 											"height": 13,
-											"text": "(from Use case tổng quát)"
+											"text": "(from Use case tổng quát hệ thống quản lý thư viện)"
 										},
 										{
 											"_type": "LabelView",
@@ -11712,9 +11712,9 @@
 											"parentStyle": true,
 											"left": -240,
 											"top": -36,
-											"width": 150.287109375,
+											"width": 300.650390625,
 											"height": 13,
-											"text": "(from Use case tổng quát)"
+											"text": "(from Use case tổng quát hệ thống quản lý thư viện)"
 										},
 										{
 											"_type": "LabelView",
@@ -12768,9 +12768,9 @@
 											"parentStyle": true,
 											"left": -82,
 											"top": -54,
-											"width": 150.287109375,
+											"width": 300.650390625,
 											"height": 13,
-											"text": "(from Use case tổng quát)"
+											"text": "(from Use case tổng quát hệ thống quản lý thư viện)"
 										},
 										{
 											"_type": "LabelView",
@@ -13070,6 +13070,37 @@
 							"frameTypeLabel": {
 								"$ref": "AAAAAAGhxUTl1AtFSWQ="
 							}
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGhyJjbeJmuzec=",
+							"_parent": {
+								"$ref": "AAAAAAGhxUQvLP/AgZg="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 822,
+							"top": 354,
+							"width": 100,
+							"height": 77,
+							"text": "Có thể chọn bộ lọc (keyword, trạng thái, ngày gửi) "
+						},
+						{
+							"_type": "UMLNoteLinkView",
+							"_id": "AAAAAAGhyJjbg5m6mX8=",
+							"_parent": {
+								"$ref": "AAAAAAGhxUQvLP/AgZg="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"head": {
+								"$ref": "AAAAAAGhyJjbeJmuzec="
+							},
+							"tail": {
+								"$ref": "AAAAAAGhxUQvLP/L3jQ="
+							},
+							"lineStyle": 1,
+							"points": "753:383;821:388"
 						}
 					]
 				}
@@ -13858,7 +13889,7 @@
 									"parentStyle": true,
 									"left": 797,
 									"top": 301,
-									"width": 254.181640625,
+									"width": 253,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxUq2dEdxTWE="
@@ -15096,9 +15127,9 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 248.72998046875,
+									"left": 247.27001953125,
 									"top": 245,
-									"width": 80.22802734375,
+									"width": 73.10595703125,
 									"height": 13,
 									"text": "Xử lý trả sách"
 								},
@@ -15112,7 +15143,7 @@
 									"parentStyle": true,
 									"left": 229,
 									"top": 245,
-									"width": 13.72998046875,
+									"width": 12.27001953125,
 									"height": 13,
 									"text": "uc"
 								}
@@ -15559,7 +15590,7 @@
 									"parentStyle": true,
 									"left": 259,
 									"top": 357,
-									"width": 90.919921875,
+									"width": 90,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxWuyS92wpdk="
@@ -16051,7 +16082,7 @@
 									"parentStyle": true,
 									"left": 424.5,
 									"top": 285,
-									"width": 117.6435546875,
+									"width": 117,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxWwtAN4Ms9E="
@@ -16261,7 +16292,7 @@
 									"parentStyle": true,
 									"left": 416.5,
 									"top": 469,
-									"width": 117.6435546875,
+									"width": 117,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxWxrg942h6Y="
@@ -16635,9 +16666,9 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 224.72998046875,
+									"left": 223.27001953125,
 									"top": 189,
-									"width": 75.87353515625,
+									"width": 67.869140625,
 									"height": 13,
 									"text": "Quản lý sách"
 								},
@@ -16651,7 +16682,7 @@
 									"parentStyle": true,
 									"left": 205,
 									"top": 189,
-									"width": 13.72998046875,
+									"width": 12.27001953125,
 									"height": 13,
 									"text": "uc"
 								}
@@ -17037,7 +17068,7 @@
 									"parentStyle": true,
 									"left": 344.5,
 									"top": 285,
-									"width": 155.92626953125,
+									"width": 155,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxW6YO97QLRA="
@@ -17241,7 +17272,7 @@
 									"parentStyle": true,
 									"left": 725.5,
 									"top": 157,
-									"width": 102.47265625,
+									"width": 101,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxW7CS978EOc="
@@ -17438,7 +17469,7 @@
 									"parentStyle": true,
 									"left": 726.5,
 									"top": 293,
-									"width": 106.79541015625,
+									"width": 106,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxW8K2t8mOpM="
@@ -17643,7 +17674,7 @@
 									"parentStyle": true,
 									"left": 709.5,
 									"top": 421,
-									"width": 141.46630859375,
+									"width": 141,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxW8wg99SvNg="
@@ -18397,9 +18428,9 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 320.72998046875,
+									"left": 319.27001953125,
 									"top": 85,
-									"width": 136.576171875,
+									"width": 122.02099609375,
 									"height": 13,
 									"text": "Quản lý danh mục sách"
 								},
@@ -18413,7 +18444,7 @@
 									"parentStyle": true,
 									"left": 301,
 									"top": 85,
-									"width": 13.72998046875,
+									"width": 12.27001953125,
 									"height": 13,
 									"text": "uc"
 								}
@@ -18816,7 +18847,7 @@
 									"parentStyle": true,
 									"left": 406.5,
 									"top": 157,
-									"width": 146.373046875,
+									"width": 146,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXEzY+Afr0o="
@@ -19013,7 +19044,7 @@
 									"parentStyle": true,
 									"left": 427,
 									"top": 293,
-									"width": 129.9072265625,
+									"width": 129,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXFZq+BJJfU="
@@ -19218,7 +19249,7 @@
 									"parentStyle": true,
 									"left": 387,
 									"top": 429,
-									"width": 167.47265625,
+									"width": 166,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXF6m+Bzn3U="
@@ -20305,7 +20336,7 @@
 									"parentStyle": true,
 									"left": 777,
 									"top": 253,
-									"width": 80.82080078125,
+									"width": 80,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXLH0+FP3ak="
@@ -20927,7 +20958,7 @@
 									"parentStyle": true,
 									"left": 649,
 									"top": 373,
-									"width": 80.7890625,
+									"width": 80,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXMem+HPx4E="
@@ -21529,7 +21560,7 @@
 									"parentStyle": true,
 									"left": 495,
 									"top": 541,
-									"width": 109.6962890625,
+									"width": 109,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXQZe+JFelg="
@@ -21739,7 +21770,7 @@
 									"parentStyle": true,
 									"left": 749.5,
 									"top": 533,
-									"width": 103.17724609375,
+									"width": 102,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXRWsuJvlOQ="
@@ -21949,7 +21980,7 @@
 									"parentStyle": true,
 									"left": 738,
 									"top": 445,
-									"width": 124.7021484375,
+									"width": 124,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxXR1w+KZUqc="
@@ -22421,9 +22452,9 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 264.72998046875,
+									"left": 263.27001953125,
 									"top": 37,
-									"width": 90.33349609375,
+									"width": 82.671875,
 									"height": 13,
 									"text": "Quản lý độc giả"
 								},
@@ -22437,7 +22468,7 @@
 									"parentStyle": true,
 									"left": 245,
 									"top": 37,
-									"width": 13.72998046875,
+									"width": 12.27001953125,
 									"height": 13,
 									"text": "uc"
 								}
@@ -23008,7 +23039,7 @@
 									"parentStyle": true,
 									"left": 275,
 									"top": 189,
-									"width": 90.95166015625,
+									"width": 90,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxYiyyuopSAg="
@@ -23638,7 +23669,7 @@
 									"parentStyle": true,
 									"left": 475.5,
 									"top": 223.5,
-									"width": 209.41162109375,
+									"width": 209,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxYrCJOtBFp8="
@@ -23848,7 +23879,7 @@
 									"parentStyle": true,
 									"left": 427.5,
 									"top": 299.5,
-									"width": 171.12255859375,
+									"width": 171,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxYr6zOtr01I="
@@ -24058,7 +24089,7 @@
 									"parentStyle": true,
 									"left": 208.5,
 									"top": 309,
-									"width": 116.208984375,
+									"width": 115,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxYtECOuVCQ8="
@@ -24978,9 +25009,9 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 192.72998046875,
+									"left": 191.27001953125,
 									"top": 37,
-									"width": 76.1337890625,
+									"width": 66.498046875,
 									"height": 13,
 									"text": "Tra cứu sách"
 								},
@@ -24994,7 +25025,7 @@
 									"parentStyle": true,
 									"left": 173,
 									"top": 37,
-									"width": 13.72998046875,
+									"width": 12.27001953125,
 									"height": 13,
 									"text": "uc"
 								}
@@ -25472,7 +25503,7 @@
 									"parentStyle": true,
 									"left": 482.5,
 									"top": 389,
-									"width": 166.04443359375,
+									"width": 165,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxZXoomNdf6g="
@@ -25682,7 +25713,7 @@
 									"parentStyle": true,
 									"left": 509.5,
 									"top": 581,
-									"width": 103.17724609375,
+									"width": 102,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxZYQ+mOHE68="
@@ -25892,7 +25923,7 @@
 									"parentStyle": true,
 									"left": 494,
 									"top": 517,
-									"width": 144.3544921875,
+									"width": 144,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxZZtOmOz4ks="
@@ -26102,7 +26133,7 @@
 									"parentStyle": true,
 									"left": 510,
 									"top": 453,
-									"width": 105.34814453125,
+									"width": 104,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxZalO2PhjtM="
@@ -26312,7 +26343,7 @@
 									"parentStyle": true,
 									"left": 498,
 									"top": 645,
-									"width": 124.7021484375,
+									"width": 124,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGhxZcPm2QbsGQ="
@@ -27869,9 +27900,9 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 376.72998046875,
+									"left": 375.27001953125,
 									"top": 309,
-									"width": 101.17529296875,
+									"width": 92.78369140625,
 									"height": 13,
 									"text": "Quản lý tài khoản"
 								},
@@ -27885,7 +27916,7 @@
 									"parentStyle": true,
 									"left": 357,
 									"top": 309,
-									"width": 13.72998046875,
+									"width": 12.27001953125,
 									"height": 13,
 									"text": "uc"
 								}
