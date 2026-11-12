@@ -13037,8 +13037,8 @@
 									},
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 408.72998046875,
-									"top": 310,
+									"left": 400.72998046875,
+									"top": 325,
 									"width": 132.84375,
 									"height": 13,
 									"text": "Quản lý yêu cầu mượn"
@@ -13051,8 +13051,8 @@
 									},
 									"font": "Arial;13;1",
 									"parentStyle": true,
-									"left": 389,
-									"top": 310,
+									"left": 381,
+									"top": 325,
 									"width": 13.72998046875,
 									"height": 13,
 									"text": "uc"
@@ -13060,8 +13060,8 @@
 							],
 							"font": "Arial;13;0",
 							"parentStyle": false,
-							"left": 384,
-							"top": 305,
+							"left": 376,
+							"top": 320,
 							"width": 728,
 							"height": 343,
 							"nameLabel": {
