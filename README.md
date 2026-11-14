@@ -18,10 +18,10 @@ Giảng viên hướng dẫn: **ThS. Lê Thanh Trúc**
 ## 2. Lộ trình
 
 - [X] Sơ đồ use case
-- [ ] Sơ đồ lớp (Class)
+- [x] Sơ đồ lớp (Class)
 - [X] Sơ đồ tuần tự (Sequence)
 - [X] Sơ đồ hoạt động (Activity)
-- [ ] Sơ đồ trạng thái (State machine)
+- [x] Sơ đồ trạng thái (State machine)
 
 ## 3. Sơ đồ Use Case
 
