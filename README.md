@@ -19,8 +19,8 @@ Giảng viên hướng dẫn: **ThS. Lê Thanh Trúc**
 
 - [X] Sơ đồ use case
 - [ ] Sơ đồ lớp (Class)
-- [ ] Sơ đồ tuần tự (Sequence)
-- [ ] Sơ đồ hoạt động (Activity)
+- [X] Sơ đồ tuần tự (Sequence)
+- [X] Sơ đồ hoạt động (Activity)
 - [ ] Sơ đồ trạng thái (State machine)
 
 ## 3. Sơ đồ Use Case
