@@ -22,20 +22,36 @@ Giảng viên hướng dẫn: **ThS. Lê Thanh Trúc**
 - [X] Sơ đồ tuần tự (Sequence)
 - [X] Sơ đồ hoạt động (Activity)
 - [x] Sơ đồ trạng thái (State machine)
+- [x] Báo cáo tổng hợp lần 1 và lần 2
+- [x] Báo cáo cá nhân (Bảo, Tài)
 
-## 3. Sơ đồ Use Case
-
-### 3.1. Cấu trúc thư mục
+## 3. Cấu trúc thư mục
 
 ```text
 .
 ├── README.md
-└── use-case/
-    ├── UC_Library_Management.mdj   # Project StarUML chứa các sơ đồ use case
-    └── doc/                        # Đặc tả use case và báo cáo (.docx)
+├── use-case/
+│   ├── all-usse-case.mdj          # Tất cả sơ đồ use case (StarUML)
+│   └── doc-share/                 # Đặc tả và phân rã use case (.docx)
+├── class-diagram/
+│   └── ClassDiagram.mdj           # Sơ đồ lớp
+├── sequence-diagram/
+│   ├── all-sequence-diagram.mdj   # Tất cả sơ đồ tuần tự
+│   └── sequence-diagram-for-bao.mdj
+├── activity-diagram/
+│   ├── activity-diagram-thu-vien.mdj
+│   ├── activity-diagram-for-bao-report.mdj
+│   └── activity_Tai.mdj
+├── state-diagram/
+│   └── all-state-diagram.mdj      # Sơ đồ trạng thái
+├── bao-report-main/               # Báo cáo cá nhân của Bảo (.docx, .mdj, ảnh .png)
+├── Tai-report_main/               # Báo cáo cá nhân của Tài (.docx, .mdj)
+└── summary-report-doc/            # Báo cáo tổng hợp lần 1, lần 2 (.docx, .pdf)
 ```
 
-### 3.2. Các tác nhân (Actor)
+## 4. Sơ đồ Use Case
+
+### 4.1. Các tác nhân (Actor)
 
 | Actor               | Mô tả                                                                                             |
 | ------------------- | --------------------------------------------------------------------------------------------------- |
@@ -44,7 +60,7 @@ Giảng viên hướng dẫn: **ThS. Lê Thanh Trúc**
 | Thủ thư           | Quản lý sách, độc giả, thẻ thư viện, yêu cầu mượn và việc trả sách                 |
 | Quản trị viên    | Quản lý tài khoản, phân quyền và thống kê                                                  |
 
-### 3.3. Các use case chính
+### 4.2. Các use case chính
 
 Sơ đồ tổng quát (`Use case tổng quát hệ thống quản lý thư viện`) gồm các use case chính sau:
 
@@ -55,7 +71,7 @@ Sơ đồ tổng quát (`Use case tổng quát hệ thống quản lý thư vi�
 | Thủ thư           | Quản lý sách, Quản lý danh mục sách, Quản lý độc giả, Quản lý yêu cầu mượn, Xử lý trả sách, Xem thống kê                                                |
 | Quản trị viên    | Quản lý tài khoản, Đặt hạn mức mượn, Xem thống kê                                                                                                                   |
 
-### 3.4. Các use case phân rã
+### 4.3. Các use case phân rã
 
 Một số use case chính được phân rã thành các use case con, mỗi use case có một sơ đồ riêng:
 
@@ -69,26 +85,35 @@ Một số use case chính được phân rã thành các use case con, mỗi us
 | Xử lý trả sách         | Kiểm tra tình trạng sách, tính tiền phạt quá hạn, lập biên bản sách mất hoặc hỏng, xác nhận hoàn tất trả sách               |
 | Quản lý tài khoản      | Xem danh sách tài khoản, thêm tài khoản, phân quyền, khóa, mở khóa                                                                     |
 
-### 3.5. Tài liệu
+### 4.4. Tài liệu
 
-Thư mục [use-case/doc](use-case/doc) chứa phần phân rã và đặc tả của từng nhóm use case: quản lý tài khoản, thông tin cá nhân, tra cứu sách, yêu cầu mượn, xử lý trả sách và thống kê. Thư mục này cũng có bản mô tả use case tổng quát và báo cáo tổng hợp lần 1.
+Thư mục [use-case/doc-share](use-case/doc-share) chứa phần phân rã và đặc tả use case: quản lý tài khoản, thông tin cá nhân, tra cứu sách, quản lý sách, danh mục sách, độc giả và xử lý trả sách, cùng bản đặc tả use case tổng quát. Các báo cáo tổng hợp nằm trong [summary-report-doc](summary-report-doc).
 
-## 4. Công cụ
+## 5. Các sơ đồ khác
+
+| Sơ đồ       | File                                                                                                                   |
+| ------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| Lớp        | [class-diagram/ClassDiagram.mdj](class-diagram/ClassDiagram.mdj)                                                       |
+| Tuần tự    | [sequence-diagram/all-sequence-diagram.mdj](sequence-diagram/all-sequence-diagram.mdj)                                 |
+| Hoạt động | [activity-diagram/activity-diagram-thu-vien.mdj](activity-diagram/activity-diagram-thu-vien.mdj)                       |
+| Trạng thái | [state-diagram/all-state-diagram.mdj](state-diagram/all-state-diagram.mdj)                                             |
+
+## 6. Công cụ
 
 - [StarUML](https://staruml.io/) — mở và chỉnh sửa file mô hình `.mdj`.
 - Microsoft Word (hoặc trình soạn thảo tương thích) — đọc các tài liệu `.docx`.
 
-## 5. Bắt đầu
+## 7. Bắt đầu
 
 1. Clone repository:
 
    ```bash
    git clone <repository-url>
    ```
-2. Mở `use-case/UC_Library_Management.mdj` bằng StarUML.
-3. Đọc file `.docx` tương ứng trong `use-case/doc` để xem mô tả từng use case.
+2. Mở `use-case/all-usse-case.mdj` (hoặc file `.mdj` của sơ đồ cần xem) bằng StarUML.
+3. Đọc file `.docx` tương ứng trong `use-case/doc-share` để xem mô tả từng use case.
 
-## 6. Quy trình làm việc nhóm
+## 8. Quy trình làm việc nhóm
 
 1. Chạy `git pull` để lấy thay đổi mới nhất trước khi chỉnh sửa.
 2. Chỉ sửa sơ đồ hoặc tài liệu được phân công, để file `.mdj` dùng chung không bị xung đột. File mô hình dạng này rất khó merge.
