@@ -10816,14 +10816,6 @@
 				},
 				{
 					"_type": "UMLClass",
-					"_id": "AAAAAAGh0HM08TzjYE0=",
-					"_parent": {
-						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "S"
-				},
-				{
-					"_type": "UMLClass",
 					"_id": "AAAAAAGh0IFE0T3R6iA=",
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
